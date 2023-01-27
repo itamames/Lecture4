@@ -38,15 +38,15 @@ that of another.
 
 Is the opposite of Big-O
 
-"Our lower bound shows O(n<sup>2</sup>)"
+"Our lower bound shows &Omega;(n<sup>2</sup>)"
 
 ## Big-Theta
 
-&Omega;(x) - Equal to
+&Theta;(x) - Equal to
 
 In addition, there is a notation that allows us to say that two algorithms grow at the same rate, up to constant factors.
 
-"Furthermore, our bounds are tight at O(n<sup>2</sup>)"
+"Furthermore, our bounds are tight at &Theta;(n<sup>2</sup>)"
 
 ### Example 
 For T(n) = 73n<sup>3</sup> + 22n<sup>2</sup>+ 58, all of the following are generally acceptable, but tighter bounds (such as numbers 2 and 3 below) are usually strongly preferred over looser bounds (such as number 1 below).
